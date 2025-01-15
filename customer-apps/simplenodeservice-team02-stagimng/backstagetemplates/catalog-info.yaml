@@ -1,25 +1,25 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "simplenodeservice-team02-stagimng"
-  title: "simplenodeservice-team02-stagimng"
-  description: "Template for the simplenodeservice owned and operated by team02 in environment stagimng"
+  name: "simplenodeservice-team02-staging"
+  title: "simplenodeservice-team02-staging"
+  description: "Template for the simplenodeservice owned and operated by team02 in environment staging"
   annotations:
     backstage.io/techdocs-ref: dir:.
     # Not working
     'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/name=userinterface'
-    'backstage.io/kubernetes-namespace': 'simplenodeservice-team02-stagimng'
-    argocd/app-name: simplenodeservice-team02-stagimng
+    'backstage.io/kubernetes-namespace': 'simplenodeservice-team02-staging'
+    argocd/app-name: simplenodeservice-team02-staging
   links:
     - url: https://github.com/AndyDynatrace/enablement-openpipeline-segments-iam.git
       title: Github Repo
       icon: github
-    - url: https://vigilant-happiness-x5j6q7v55p9cp76g-80.app.github.dev/simplenodeservice-team02-stagimng
+    - url: https://vigilant-happiness-x5j6q7v55p9cp76g-80.app.github.dev/simplenodeservice-team02-staging
       title: "Browse Application"
       icon: subject
     - title: View in ArgoCD
       icon: catalog
-      url: https://vigilant-happiness-x5j6q7v55p9cp76g-30100.app.github.dev/applications/argocd/simplenodeservice-team02-stagimng
+      url: https://vigilant-happiness-x5j6q7v55p9cp76g-30100.app.github.dev/applications/argocd/simplenodeservice-team02-staging
     - title: View in Dynatrace
       icon: catalog
       url: https://zwd86621.apps.dynatrace.com
@@ -29,7 +29,7 @@ metadata:
 spec:
   type: website
   owner: team02
-  lifecycle: stagimng
+  lifecycle: staging
 ---
 apiVersion: backstage.io/v1alpha1
 kind: Group
